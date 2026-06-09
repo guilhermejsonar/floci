@@ -808,6 +808,14 @@ public class IamService {
         return accessKeys.get(accessKeyId).map(AccessKey::getSecretAccessKey);
     }
 
+    public Optional<AccessKey> findAccessKey(String accessKeyId) {
+        return accessKeys.get(accessKeyId);
+    }
+
+    public Optional<IamUser> findUser(String userName) {
+        return users.get(userName);
+    }
+
     // =========================================================================
     // IAM Enforcement — session tracking and policy collection
     // =========================================================================

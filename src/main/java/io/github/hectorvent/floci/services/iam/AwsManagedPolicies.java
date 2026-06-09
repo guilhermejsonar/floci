@@ -49,6 +49,10 @@ final class AwsManagedPolicies {
                 "Provides full access to CloudWatch."),
         new ManagedPolicyDef("AWSLambdaFullAccess", "/",
                 "Provides full access to Lambda, S3, DynamoDB, CloudWatch Metrics and Logs."),
+        new ManagedPolicyDef("AWSCloudTrail_FullAccess", "/",
+                "Provides full access to AWS CloudTrail."),
+        new ManagedPolicyDef("AWSCloudTrail_ReadOnlyAccess", "/",
+                "Provides read-only access to AWS CloudTrail."),
 
         // Lambda execution role policies
         new ManagedPolicyDef("AWSLambdaBasicExecutionRole", "/service-role/",

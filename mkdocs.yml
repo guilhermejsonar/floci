@@ -115,6 +115,7 @@ nav:
     - CodeBuild: services/codebuild.md
     - CodeDeploy: services/codedeploy.md
     - AWS Backup: services/backup.md
+    - CloudTrail: services/cloudtrail.md
     - CloudFront: services/cloudfront.md
     - Route53: services/route53.md
     - AWS Cloud Map: services/cloudmap.md
